@@ -20,6 +20,7 @@ public class ModCreativeModeTabs {
                             .title(Component.translatable("creativetab.foxfur.sports_equipment"))
                             .displayItems((itemDisplayParameters, output) -> {
                             output.accept(ModItems.DODGEBALL);
+                            output.accept(ModItems.TENNIS_BALL);
                             }).build());
 
     public static final Supplier<CreativeModeTab> FURNITURE = CREATIVE_MODE_TAB.register("furniture",
@@ -27,7 +28,6 @@ public class ModCreativeModeTabs {
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(FoxFur.MOD_ID, "sports_equipment"))
                     .title(Component.translatable("creativetab.foxfur.furniture"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModItems.TENNIS_BALL);
                     }).build());
 
 
