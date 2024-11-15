@@ -15,17 +15,17 @@ public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TAB =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, FoxFur.MOD_ID);
 
-    public static final Supplier<CreativeModeTab> FIRST_TEST_TAB = CREATIVE_MODE_TAB.register("first_test_tab",
+    public static final Supplier<CreativeModeTab> SPORTS_EQUIPMENT = CREATIVE_MODE_TAB.register("sports_equipment",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.DODGEBALL.get()))
-                            .title(Component.translatable("creativetab.foxfur.first_test_tab"))
+                            .title(Component.translatable("creativetab.foxfur.sports_equipment"))
                             .displayItems((itemDisplayParameters, output) -> {
                             output.accept(ModItems.DODGEBALL);
                             }).build());
 
-    public static final Supplier<CreativeModeTab> SECOND_TEST_TAB = CREATIVE_MODE_TAB.register("second_test_tab",
+    public static final Supplier<CreativeModeTab> FURNITURE = CREATIVE_MODE_TAB.register("furniture",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.TENNIS_BALL.get()))
-                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(FoxFur.MOD_ID, "first_test_tab"))
-                    .title(Component.translatable("creativetab.foxfur.second_test_tab"))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(FoxFur.MOD_ID, "sports_equipment"))
+                    .title(Component.translatable("creativetab.foxfur.furniture"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.TENNIS_BALL);
                     }).build());
