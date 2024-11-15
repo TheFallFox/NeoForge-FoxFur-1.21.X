@@ -14,8 +14,6 @@ public class ModItems {
     public static final DeferredItem<Item> TENNIS_BALL = ITEMS.register("tennis_ball",
             () -> new Item(new Item.Properties()));
 
-
-
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
