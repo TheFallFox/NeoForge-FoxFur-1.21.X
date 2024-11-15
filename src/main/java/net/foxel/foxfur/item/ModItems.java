@@ -13,6 +13,12 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> TENNIS_BALL = ITEMS.register("tennis_ball",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> BASEBALL_BAT = ITEMS.register("baseball_bat",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> YEN = ITEMS.register("yen",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MPHONE11 = ITEMS.register("mphone11",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

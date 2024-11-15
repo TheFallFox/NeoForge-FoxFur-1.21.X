@@ -16,19 +16,22 @@ public class ModCreativeModeTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, FoxFur.MOD_ID);
 
     public static final Supplier<CreativeModeTab> SPORTS_EQUIPMENT = CREATIVE_MODE_TAB.register("sports_equipment",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.DODGEBALL.get()))
-                            .title(Component.translatable("creativetab.foxfur.sports_equipment"))
-                            .displayItems((itemDisplayParameters, output) -> {
-                            output.accept(ModItems.DODGEBALL);
-                            output.accept(ModItems.TENNIS_BALL);
-                            }).build());
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.BASEBALL_BAT.get()))
+                        .title(Component.translatable("creativetab.foxfur.sports_equipment"))
+                        .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModItems.BASEBALL_BAT);
+                        output.accept(ModItems.DODGEBALL);
+                        output.accept(ModItems.TENNIS_BALL);
+                        }).build());
 
-    public static final Supplier<CreativeModeTab> FURNITURE = CREATIVE_MODE_TAB.register("furniture",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.TENNIS_BALL.get()))
-                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(FoxFur.MOD_ID, "sports_equipment"))
-                    .title(Component.translatable("creativetab.foxfur.furniture"))
-                    .displayItems((itemDisplayParameters, output) -> {
-                    }).build());
+    public static final Supplier<CreativeModeTab> RPITEMS = CREATIVE_MODE_TAB.register("rpitems",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.MPHONE11.get()))
+                        .withTabsBefore(ResourceLocation.fromNamespaceAndPath(FoxFur.MOD_ID, "sports_equipment"))
+                        .title(Component.translatable("creativetab.foxfur.rpitems"))
+                        .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModItems.MPHONE11);
+                        output.accept(ModItems.YEN);
+                        }).build());
 
 
     public static void register(IEventBus eventBus) {

@@ -1,7 +1,10 @@
 {
   "item.foxfur.dodgeball": "Dodgeball",
   "item.foxfur.tennis_ball": "Tennis Ball",
+  "item.foxfur.baseball_bat": "Baseball Bat",
+  "item.foxfur.mphone11": "M-Phone 11",
+  "item.foxfur.yen": "Yen",
 
   "creativetab.foxfur.sports_equipment": "Sports Equipment",
-  "creativetab.foxfur.furniture": "Furniture"
+  "creativetab.foxfur.rpitems": "RP Items"
 }
