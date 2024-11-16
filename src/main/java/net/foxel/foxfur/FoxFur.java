@@ -1,5 +1,6 @@
 package net.foxel.foxfur;
 
+import net.foxel.foxfur.block.ModBlocks;
 import net.foxel.foxfur.item.ModCreativeModeTabs;
 import net.foxel.foxfur.item.ModItems;
 import org.slf4j.Logger;
@@ -39,6 +40,7 @@ public class FoxFur {
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.reigster(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);

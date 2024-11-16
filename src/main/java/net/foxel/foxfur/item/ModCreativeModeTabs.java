@@ -1,6 +1,7 @@
 package net.foxel.foxfur.item;
 
 import net.foxel.foxfur.FoxFur;
+import net.foxel.foxfur.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
@@ -31,6 +32,7 @@ public class ModCreativeModeTabs {
                         .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.MPHONE11);
                         output.accept(ModItems.YEN);
+                        output.accept(ModBlocks.AIR_HOCKEY);
                         }).build());
 
 
