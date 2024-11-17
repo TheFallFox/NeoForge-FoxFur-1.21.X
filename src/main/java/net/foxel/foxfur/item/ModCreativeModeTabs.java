@@ -32,7 +32,9 @@ public class ModCreativeModeTabs {
                         .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.MPHONE11);
                         output.accept(ModItems.YEN);
+
                         output.accept(ModBlocks.AIR_HOCKEY);
+
                         }).build());
 
 

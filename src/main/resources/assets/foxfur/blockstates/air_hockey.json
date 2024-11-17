@@ -1,19 +1,7 @@
 {
-  "variants": {
-    "facing=north": {
-      "model": "foxfur:block/air_hockey"
-    },
-    "facing=south": {
-      "model": "foxfur:block/air_hockey",
-      "y": 180
-    },
-    "facing=west": {
-      "model": "foxfur:block/air_hockey",
-      "y": 270
-    },
-    "facing=east": {
-      "model": "foxfur:block/air_hockey",
-      "y": 90
-    }
-  }
+	"variants": {
+		"": {
+			"model": "foxfur:block/air_hockey"
+		}
+	}
 }

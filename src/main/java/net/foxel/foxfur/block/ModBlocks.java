@@ -18,8 +18,7 @@ public class ModBlocks {
             DeferredRegister.createBlocks(FoxFur.MOD_ID);
 
     public static final DeferredBlock<Block> AIR_HOCKEY = registerBlock("air_hockey",
-            () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_BRICKS)));
+            () -> new Block(BlockBehaviour.Properties.of().noOcclusion()));
 
 
 
