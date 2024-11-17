@@ -19,7 +19,7 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> AIR_HOCKEY = registerBlock("air_hockey",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.GLASS)));
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_BRICKS)));
 
 
 
