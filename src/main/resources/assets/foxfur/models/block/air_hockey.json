@@ -1,6 +1,5 @@
 {
 	"credit": "MadewithBlockbench",
-	"render_type": "translucent",
 	"textures": {
 		"0": "foxfur:block/air_hockey",
 		"1": "foxfur:block/05_animation",
