@@ -40,7 +40,7 @@ public class FoxFur {
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
-        ModBlocks.reigster(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);

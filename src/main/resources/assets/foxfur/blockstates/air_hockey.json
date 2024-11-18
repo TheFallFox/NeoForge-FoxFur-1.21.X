@@ -1,7 +1,7 @@
 {
-	"variants": {
-		"": {
-			"model": "foxfur:block/air_hockey"
-		}
-	}
+  "variants": {
+    "": {
+      "model": "foxfur:block/air_hockey"
+    }
+  }
 }

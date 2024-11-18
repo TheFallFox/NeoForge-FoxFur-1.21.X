@@ -1,9 +1,8 @@
 {
 	"credit": "MadewithBlockbench",
-	"texture_size": [256,256],
 	"textures": {
 		"0": "foxfur:block/air_hockey",
-		"1": "foxfur:block/animated_air_hockey",
+		"1": "foxfur:block/05_animation",
 		"particle": "foxfur:block/air_hockey"
 	},
 	"elements": [

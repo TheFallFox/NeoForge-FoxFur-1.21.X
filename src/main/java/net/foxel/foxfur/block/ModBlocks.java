@@ -1,11 +1,11 @@
 package net.foxel.foxfur.block;
 
 import net.foxel.foxfur.FoxFur;
+import net.foxel.foxfur.block.custom.Air_Hockey_Table;
 import net.foxel.foxfur.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
@@ -18,9 +18,7 @@ public class ModBlocks {
             DeferredRegister.createBlocks(FoxFur.MOD_ID);
 
     public static final DeferredBlock<Block> AIR_HOCKEY = registerBlock("air_hockey",
-            () -> new Block(BlockBehaviour.Properties.of().noOcclusion()));
-
-
+            () -> new Air_Hockey_Table(BlockBehaviour.Properties.of().noOcclusion()));
 
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
@@ -33,7 +31,8 @@ public class ModBlocks {
         ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
     }
 
-    public static void reigster(IEventBus eventBus){
+
+    public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);
-            }
+    }
 }
