@@ -10,7 +10,7 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 
 public class Air_Hockey_Table extends HalfTransparentBlock {
 
-    public static final VoxelShape SHAPE = Block.box(-2, 5, -12, 18, 11, 28);
+    public static final VoxelShape SHAPE = Block.box(-2, 8, -5, 18, 16, 21);
 
 
     public Air_Hockey_Table(Properties properties) {
