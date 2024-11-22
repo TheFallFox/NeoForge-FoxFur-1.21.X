@@ -23,10 +23,18 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of().noOcclusion()));
     public static final DeferredBlock<Block> BASKET_BALL = registerBlock("basketball_game",
             () -> new Block(BlockBehaviour.Properties.of().noOcclusion()));
+    public static final DeferredBlock<Block> TRASH_BIN = registerBlock("bin",
+            () -> new Air_Hockey_Table(BlockBehaviour.Properties.of().noOcclusion()));
+    public static final DeferredBlock<Block> HAMMER_FROG = registerBlock("crazy_frog_hammer",
+            () -> new Air_Hockey_Table(BlockBehaviour.Properties.of().noOcclusion()));
     public static final DeferredBlock<Block> DANCE_MACHINE_MONITOR = registerBlock("dance_machine_monitor",
             () -> new Block(BlockBehaviour.Properties.of().noOcclusion()));
     public static final DeferredBlock<Block> DANCE_MACHINE_PAD = registerBlock("dance_machine_pad",
             () -> new Block(BlockBehaviour.Properties.of().noOcclusion()));
+    public static final DeferredBlock<Block> HAMMER_KING = registerBlock("king_of_hammer",
+            () -> new Air_Hockey_Table(BlockBehaviour.Properties.of().noOcclusion()));
+    public static final DeferredBlock<Block> METAL_SLUG = registerBlock("metal_slug_machine",
+            () -> new Air_Hockey_Table(BlockBehaviour.Properties.of().noOcclusion()));
     public static final DeferredBlock<Block> MS_PACMAN = registerBlock("ms_pacman",
             () -> new Block(BlockBehaviour.Properties.of().noOcclusion()));
     public static final DeferredBlock<Block> PAC_MAN_PLUS = registerBlock("pac_man_plus",
@@ -37,6 +45,10 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of().noOcclusion()));
     public static final DeferredBlock<Block> SHOOTING_ARCADE = registerBlock("shooting_arcade",
             () -> new Block(BlockBehaviour.Properties.of().noOcclusion()));
+    public static final DeferredBlock<Block> SHOOTER_GAME_MONITOR = registerBlock("shooting_game_arcade_monitor",
+            () -> new Air_Hockey_Table(BlockBehaviour.Properties.of().noOcclusion()));
+    public static final DeferredBlock<Block> WALL_ARCADE = registerBlock("wall_arcade",
+            () -> new Air_Hockey_Table(BlockBehaviour.Properties.of().noOcclusion()));
 
 
 
