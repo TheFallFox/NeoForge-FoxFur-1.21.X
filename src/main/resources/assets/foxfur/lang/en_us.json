@@ -10,8 +10,13 @@
   "block.foxfur.basketball_game": "Basketball Game",
   "block.foxfur.dance_machine_monitor": "Dance System",
   "block.foxfur.dance_machine_pad": "Dance Pad",
+  "block.foxfur.ms_pacman": "Ms.Pac-Man Game",
   "block.foxfur.pac_man_plus": "Pac-Man Game",
+  "block.foxfur.punch_machine": "Punch Machine",
+  "block.foxfur.san_francisco_rush": "San Francisco Rush",
+  "block.foxfur.shooting_arcade": "Shooting System",
 
   "creativetab.foxfur.sports_equipment": "Sports Equipment",
-  "creativetab.foxfur.rpitems": "RP Items"
+  "creativetab.foxfur.rpitems": "RP Items",
+  "creativetab.foxfur.arcade_fur": "Arcade Decor"
 }

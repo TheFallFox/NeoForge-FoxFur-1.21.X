@@ -27,8 +27,17 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of().noOcclusion()));
     public static final DeferredBlock<Block> DANCE_MACHINE_PAD = registerBlock("dance_machine_pad",
             () -> new Block(BlockBehaviour.Properties.of().noOcclusion()));
+    public static final DeferredBlock<Block> MS_PACMAN = registerBlock("ms_pacman",
+            () -> new Block(BlockBehaviour.Properties.of().noOcclusion()));
     public static final DeferredBlock<Block> PAC_MAN_PLUS = registerBlock("pac_man_plus",
             () -> new Block(BlockBehaviour.Properties.of().noOcclusion()));
+    public static final DeferredBlock<Block> PUNCH_MACHINE = registerBlock("punch_machine",
+            () -> new Block(BlockBehaviour.Properties.of().noOcclusion()));
+    public static final DeferredBlock<Block> SAN_FRANCISCO_RUSH = registerBlock("san_francisco_rush",
+            () -> new Block(BlockBehaviour.Properties.of().noOcclusion()));
+    public static final DeferredBlock<Block> SHOOTING_ARCADE = registerBlock("shooting_arcade",
+            () -> new Block(BlockBehaviour.Properties.of().noOcclusion()));
+
 
 
 

@@ -33,14 +33,25 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.MPHONE11);
                         output.accept(ModItems.YEN);
 
+                        }).build());
+
+    public static final Supplier<CreativeModeTab> ARCADE_FUR = CREATIVE_MODE_TAB.register("arcade_fur",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.PAC_MAN_PLUS.get()))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(FoxFur.MOD_ID, "rpitems"))
+                    .title(Component.translatable("creativetab.foxfur.arcade_fur"))
+                    .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.AIR_HOCKEY);
                         output.accept(ModBlocks.ARCADE_SIGN);
                         output.accept(ModBlocks.BASKET_BALL);
                         output.accept(ModBlocks.DANCE_MACHINE_MONITOR);
                         output.accept(ModBlocks.DANCE_MACHINE_PAD);
+                        output.accept(ModBlocks.MS_PACMAN);
                         output.accept(ModBlocks.PAC_MAN_PLUS);
+                        output.accept(ModBlocks.PUNCH_MACHINE);
+                        output.accept(ModBlocks.SAN_FRANCISCO_RUSH);
+                        output.accept(ModBlocks.SHOOTING_ARCADE);
 
-                        }).build());
+                    }).build());
 
 
     public static void register(IEventBus eventBus) {
