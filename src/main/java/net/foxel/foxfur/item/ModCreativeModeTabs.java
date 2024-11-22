@@ -34,6 +34,11 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.YEN);
 
                         output.accept(ModBlocks.AIR_HOCKEY);
+                        output.accept(ModBlocks.ARCADE_SIGN);
+                        output.accept(ModBlocks.BASKET_BALL);
+                        output.accept(ModBlocks.DANCE_MACHINE_MONITOR);
+                        output.accept(ModBlocks.DANCE_MACHINE_PAD);
+                        output.accept(ModBlocks.PAC_MAN_PLUS);
 
                         }).build());
 

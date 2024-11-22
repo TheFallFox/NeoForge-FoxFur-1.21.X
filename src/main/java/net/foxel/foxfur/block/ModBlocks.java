@@ -19,6 +19,17 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> AIR_HOCKEY = registerBlock("air_hockey",
             () -> new Air_Hockey_Table(BlockBehaviour.Properties.of().noOcclusion()));
+    public static final DeferredBlock<Block> ARCADE_SIGN = registerBlock("arcade_sign",
+            () -> new Block(BlockBehaviour.Properties.of().noOcclusion()));
+    public static final DeferredBlock<Block> BASKET_BALL = registerBlock("basketball_game",
+            () -> new Block(BlockBehaviour.Properties.of().noOcclusion()));
+    public static final DeferredBlock<Block> DANCE_MACHINE_MONITOR = registerBlock("dance_machine_monitor",
+            () -> new Block(BlockBehaviour.Properties.of().noOcclusion()));
+    public static final DeferredBlock<Block> DANCE_MACHINE_PAD = registerBlock("dance_machine_pad",
+            () -> new Block(BlockBehaviour.Properties.of().noOcclusion()));
+    public static final DeferredBlock<Block> PAC_MAN_PLUS = registerBlock("pac_man_plus",
+            () -> new Block(BlockBehaviour.Properties.of().noOcclusion()));
+
 
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {

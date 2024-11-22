@@ -6,6 +6,11 @@
   "item.foxfur.yen": "Yen",
 
   "block.foxfur.air_hockey": "Air Hockey Table",
+  "block.foxfur.arcade_sign": "Arcade Sign",
+  "block.foxfur.basketball_game": "Basketball Game",
+  "block.foxfur.dance_machine_monitor": "Dance System",
+  "block.foxfur.dance_machine_pad": "Dance Pad",
+  "block.foxfur.pac_man_plus": "Pac-Man Game",
 
   "creativetab.foxfur.sports_equipment": "Sports Equipment",
   "creativetab.foxfur.rpitems": "RP Items"
