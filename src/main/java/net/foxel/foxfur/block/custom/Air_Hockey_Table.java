@@ -23,5 +23,4 @@ public class Air_Hockey_Table extends HalfTransparentBlock {
     protected VoxelShape getShape(BlockState state, BlockGetter level, BlockPos pos, CollisionContext context) {
         return SHAPE;
     }
-
 }
